@@ -1,0 +1,87 @@
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.bg-custom-class {
+    background-color: #1D2A35ff !important;
+}
+
+.text-custom-class {
+    color: rgb(152, 164, 173);
+}
+
+.text-custom-class-green {
+    color: #0AB67Aff;
+}
+
+.text-custom-class-orange {
+    color: #E88D13ff;
+}
+
+.ibm-plex-mono-regular {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn.no-hover-effect-navbar {
+    background-color: transparent !important;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn.no-hover-effect-navbar:hover {
+    background-color: #0AB67Aff !important;
+    color: #E88D13ff;
+    border-radius: 4px;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.prompt {
+  color: #00ff00;
+  margin-right: 8px;
+}
+
+.terminal-input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  flex: 1;
+  caret-color: #00ff00;
+}
+
+.terminal-input::placeholder {
+  color: rgb(152, 164, 173);
+}
